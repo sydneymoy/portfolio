@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(255, 255, 255)
+
+}
+
+p {
+    font-family: 'VT323', monospace;
+    font-size: 20px;
+    color: black
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Optional background color */
+}
+
+.bordered-text {
+    position: relative;
+    font-size: 2.5rem; 
+    color: #333;
+    background-color: #fff; /* Background color for the text */
+    padding: 15px;
+    border: 8px solid #000000;
+    border-radius: 20px;
+}
+
+
+
+.bottom-nav {
+    margin-top: auto;
+    border: 20px solid #00082f9b; 
+    border-radius: 10px; 
+    background-color: #0057ff;
+    padding: 40px; 
+    text-align: center;
+}
+
+.footer { 
+    background-color: #0057ff; /* Background color of the footer */
+    color: white; /* Text color */
+    padding: 50px; /* Space inside the footer */
+    text-align: center; /* Center the text */
+    position: relative; /* Optional */
+    bottom: 0; /* Positioning if needed */
+    width: 100%; /* Full width */
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 40px; 
+}
+
+.footer a:hover {
+    color: #ff0000;
+}
